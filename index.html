@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Padel Point</title>
+</head>
+
+<body class="index">
+
+    <div class="container-boton">
+
+        <a href="https://api.whatsapp.com/send?phone=543416187153">
+            <img class="boton" src="./imagenes/icono.png" alt="wsp">
+        </a>
+
+    </div>
+
+
+    <header class="colorWan p-3">
+
+
+        <nav class="navbar navbar-expand-lg colorWan">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./imagenes/alfin.png" alt="fotologo"></a>
+
+                <h1 class="text-center tituloLogo"><strong>Padel<span class="rojo">Point</span></strong></h1>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 mistyle">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/promos.html">Promos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/quienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="carousel mt-5">
+
+            <div id="carouselExampleIndicators" class="carousel slide w-50 m-auto">
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+
+                <div class="carrus carousel-inner">
+
+                    <div class="carousel-item">
+                        <img src="./imagenes/car-5.png" class="d-block w-100" alt="siux">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/car-2.webp" class="d-block w-100" alt="galan">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./imagenes/car-3.jpg" class="d-block w-100" alt="stup">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./imagenes/car4.jpg" class="d-block w-100" alt="promos">
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="./imagenes/car-1.jpg" class="d-block w-100" alt="paco">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <section class="acordeon mx-auto mb-3 mt-3">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button five" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ¿Tienen entrega a domicilio?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Realizamos entregas a todo el pais!!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header five">
+                            <button class="accordion-button collapsed five" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ¿Aceptan tarjetas?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Claro que si!</strong> Contamos con amplias posibilidades de pago. Ya sea con
+                                debito o credito, transferencia bancaria y tambien <strong>MERCADO PAGO!</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed five" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ¿Cuentan con garantia?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>TODOS LOS PRODUCTOS CUENTAN CON UNA GARANTIA DE 3 MESES</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </main>
+
+
+
+    <footer class="custom-footer">
+
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./imagenes/alfin.png" alt="Logo de la empresa">
+                </div>
+                <div class="footer-info">
+                    <p>Dirección: Mendoza 365, Rosario, Santa Fe</p>
+                    <p>Teléfono: 341-6187153</p>
+                    <p>Email: yamilelgadbaan@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
